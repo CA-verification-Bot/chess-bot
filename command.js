@@ -3,8 +3,8 @@ import dotenv from 'dotenv'
 
 dotenv.config();
 
-const token = process.env.BOT_TOKEN;
-const CLIENT_ID = process.env.USER_ID;
+const token = process.env.DISCORD_TOKEN;
+const CLIENT_ID = process.env.DISCORD_APPLICATION_ID;
 
 
 const commands = [
